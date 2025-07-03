@@ -1,0 +1,42 @@
+# Robots.txt for United Drive Insurance
+# This file tells search engine crawlers which pages they can and cannot access
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://uniteddriveinsurance.com/sitemap.xml
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Crawl delay (optional - helps prevent server overload)
+Crawl-delay: 1
+
+# Disallow any potential admin or private directories (if they existed)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow CSS and JS files for better rendering in search results
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Additional directives for better SEO
+# Host: https://uniteddriveinsurance.com (uncomment when live)
